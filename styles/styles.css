@@ -297,6 +297,16 @@ header > a:hover {
 
     .portrait {
         order: 1;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .intro {
+        max-width: 100%;
+    }
+
+    .section1 h1 {
+        font-size: 2.5rem;
     }
 
     .section1 > .flexbox2 {
