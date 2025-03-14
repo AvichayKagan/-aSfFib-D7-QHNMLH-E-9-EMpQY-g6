@@ -1,6 +1,12 @@
 @font-face {
-    font-family: 'CustomFont';
+    font-family: 'Times New Roman';
     src: url('../assets/fonts/times_new_roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+
+    font-family: 'Consolas';
+    src: url('../assets/fonts/consolas.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -68,7 +74,7 @@ header > a:hover {
 
 .section1 h1 {
     font-size: 4rem;
-    font-family: "CustomFont", serif;
+    font-family: 'Times New Roman', serif;
     align-self: flex-start;
     background: linear-gradient(90deg, yellow, #00ADB5, red, green);
     background-size: 400% 400%;
@@ -305,8 +311,23 @@ header > a:hover {
         max-width: 100%;
     }
 
+    .hello-world {
+        font-size: 0.8rem;
+        color: #EEEEEE;
+        line-height: 1.7;
+    }
+
     .section1 h1 {
         font-size: 2.5rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+
+    .btn > svg {
+        height: 1.5rem;
     }
 
     .section1 > .flexbox2 {
