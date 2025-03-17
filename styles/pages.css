@@ -1,0 +1,17 @@
+header {
+    display: flex;
+}
+
+header > div {
+    border-radius: 10px;
+    padding-top: 10px;
+    color: silver;
+}
+
+header > div > a {
+    color: silver;
+}
+
+hr {
+    margin: 5px 25px;
+}
