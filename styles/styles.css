@@ -635,7 +635,7 @@ header > a:hover {
 
 .why.lightbulb:hover > svg {
     color: rgb(246, 217, 53);
-    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 1));
+    filter: drop-shadow(0px 0px 20px yellow);
 }
 
 @keyframes Rotate {
