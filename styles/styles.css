@@ -57,11 +57,22 @@ header > a:hover {
     padding-top: 80px;
 }
 
+@keyframes FlexUp {
+    0% {
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
 .section1 > .flexbox1 {
     display: flex;
     gap: 6%;
     padding: 0px 50px;
     justify-content: center;
+    animation: FlexUp 1s;
 }
 
 .portrait {
@@ -611,6 +622,30 @@ header > a:hover {
 
 .why > svg {
     height: 50px;
+    transition: all 0.1s;
+}
+
+.why.shield:hover > svg {
+    color: green;
+}
+
+.why.lightbulb > svg {
+    transition: all 1s;
+}
+
+.why.lightbulb:hover > svg {
+    color: rgb(246, 217, 53);
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 1));
+}
+
+@keyframes Rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.why.gear:hover > svg {
+    animation: Rotate 2s linear infinite;
 }
 
 .why > h2 {
