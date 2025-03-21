@@ -1,0 +1,62 @@
+header {
+    display: flex;
+}
+
+header > div {
+    border-radius: 10px;
+    padding-top: 10px;
+    color: silver;
+}
+
+header > div > a {
+    color: silver;
+    cursor: default;
+}
+
+hr {
+    margin: 5px 25px;
+}
+
+
+
+
+
+.journey {
+    background-color: yellowgreen;
+    overflow: hidden;
+}
+
+.journey > h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 8%);
+    grid-template-rows: repeat(100, auto);
+    gap: 0px 20px;
+}
+
+.grid > div {
+    background-color: yellowgreen;
+    width: 100%;
+    aspect-ratio: 1;
+    text-align: center;
+}
+
+#tile-6 {
+    border-right: 20px solid black;
+}
+
+#tile-18 {
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+    border-radius: 0px 0px 15px 0px;
+}
+
+#tile-17 {
+    border-bottom: 20px solid black;
+    border-radius: 0px 0px 00px 0px;
+    margin-left: 20px;
+}
